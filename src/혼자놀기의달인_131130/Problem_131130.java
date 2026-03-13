@@ -16,22 +16,21 @@ class Problem_131130 {
 
       int result = topTwo.get(0) * topTwo.get(1);
       return result;
-    }
+  }
 
-    public int sol(int[] cards, int start) {
-      int cnt = 0;
+  public int sol(int[] cards, int start) {
+    int cnt = 0;
 
-      while (true) {
-        int temp = cards[start-1];
-        if (cards[start-1] != 0) {
-          cnt += 1;
-          cards[start-1] = 0;
-          start = temp;
-          continue;
-        }
-        break;
+    while (true) {
+      int temp = cards[start-1];
+      if (cards[start-1] != 0) {
+        cnt += 1;
+        cards[start-1] = 0;
+        start = temp;
+        continue;
       }
-      return cnt;
+      break;
     }
+    return cnt;
   }
 }

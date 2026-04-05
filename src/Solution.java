@@ -1,6 +1,5 @@
-public class Solution {
-
-  public int solution(String[] maps) {
+class Solution {
+  public int solution() {
     return 0;
   }
-}
+  }

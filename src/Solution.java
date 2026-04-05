@@ -1,5 +1,6 @@
 public class Solution {
-  public String solution(String X, String Y) {
-    return "";
+
+  public int solution(String[] maps) {
+    return 0;
   }
 }

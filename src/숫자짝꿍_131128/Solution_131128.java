@@ -1,6 +1,6 @@
 package 숫자짝꿍_131128;
 
-public class Problem_131128 {
+public class Solution_131128 {
   public String solution(String X, String Y) {
     StringBuilder sb = new StringBuilder();
 

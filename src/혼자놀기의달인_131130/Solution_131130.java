@@ -3,7 +3,7 @@ package 혼자놀기의달인_131130;
 import java.util.*;
 import java.util.stream.Collectors;
 
-class Problem_131130 {
+class Solution_131130 {
   public int solution(int[] cards) {
       ArrayList<Integer> results = new ArrayList<>();
       for (int i = 1; i <= cards.length; i++) {

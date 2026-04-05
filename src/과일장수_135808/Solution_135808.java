@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Problem_135808 {
+public class Solution_135808 {
   public int solution(int[] cards) {
     ArrayList<Integer> results = new ArrayList<>();
     for (int i = 1; i <= cards.length; i++) {
